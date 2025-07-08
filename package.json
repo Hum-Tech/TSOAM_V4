@@ -42,7 +42,7 @@
     "url": "https://github.com/tsoam/church-management-system.git"
   },
   "engines": {
-    "node": ">=16.0.0",
+    "node": "16.x",
     "npm": ">=8.0.0"
   },
   "devDependencies": {
