@@ -7,7 +7,7 @@
     "setup": "node setup-system.js",
     "cleanup": "node cleanup-system.js",
     "install-all": "npm install && cd client && npm install && cd ../server && npm install",
-    "build": "node scripts/build-system.js",
+    "build": "vite build",
     "build:client": "cd client && npm install && npm run build-only",
     "build-production": "node scripts/build-optimize.js",
     "start": "cd server && npm start",
@@ -46,7 +46,8 @@
     "npm": ">=8.0.0"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "vite": "^7.0.2"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
